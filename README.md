@@ -10,7 +10,7 @@ Fake news is a growing issue, especially in global and political contexts. This 
 - Scikit-learn
 - NLTK
 - TfidfVectorizer
-- Logistic Regression / Naive Bayes
+- Logistic Regression 
 - Streamlit (for UI)
 
 ## 📁 Dataset
