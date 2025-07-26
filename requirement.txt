@@ -1,6 +1,5 @@
-Logistic Regression
-pickle
-nltk>=3.8.1
 streamlit
+nltk
+scikit-learn
 pandas
-scikitlearn
+numpy
