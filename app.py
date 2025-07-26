@@ -1,5 +1,10 @@
 import streamlit as st
 import pickle
+import os
+os.system("pip install nltk")
+
+import nltk
+
 import nltk
 nltk.data.path.append("/home/appuser/nltk_data")
 from nltk.corpus import stopwords
