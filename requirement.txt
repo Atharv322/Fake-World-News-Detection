@@ -1,5 +1,6 @@
 Logistic Regression
 pickle
+nltk
 streamlit
 pandas
 scikitlearn
