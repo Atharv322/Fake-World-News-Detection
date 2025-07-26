@@ -2,15 +2,7 @@ import streamlit as st
 import pickle
 import re
 import nltk
-import os
-
-# Add tmp path for nltk
-nltk.data.path.append("/tmp")
-
-# Download required packages (only once per deployment)
-nltk.download('punkt', download_dir="/tmp")
-nltk.download('stopwords', download_dir="/tmp")
-
+import nltk
 
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
