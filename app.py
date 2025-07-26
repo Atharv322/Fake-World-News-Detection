@@ -2,6 +2,9 @@ import streamlit as st
 import pickle
 import re
 import nltk
+nltk.download('punkt')
+nltk.data.path.append("/tmp")
+
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 
